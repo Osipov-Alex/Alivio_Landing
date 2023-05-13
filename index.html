@@ -6,18 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./fonts/Lato/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/Georgia/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/Avenir-Black/stylesheet.css">
   <link rel="stylesheet" href="index.css">
   <title>Alivio</title>
 </head>
 
 <body class="body">
+
   <header class="header">
 
-    <div class="navbar">
+    <div class="navbar left-indent">
       <img src="./images/icons/Logo.png" alt=""/>
       <nav class="navigation">
-        <ul class="navigation__list">
+        <ul class="navigation-list">
           <li>
             <a href="#">Why Alivio</a>
           </li>
@@ -32,22 +36,22 @@
           </li>
         </ul>
       </nav>
-      <div class="navigation__btn">
+      <div class="navigation-btn">
         <a href="#">Sign in</a>
-        <button>Start Trial</button>
+        <button class="button">Start Trial</button>
       </div>
     </div>
 
-    <div class="headline-bg">
+    <div class="headline-bg left-indent">
       <div class="headline">
-        <h3 class="headline__title">
+        <h3 class="headline-title">
           Be aware,<br> Manage well.
         </h3>
-        <p class="headline__text">
+        <p class="headline-text">
           Everyone experiences stress in different ways. <br> Let Alivio guide you, in a personalized journal <br> experience, to overcome
           your stress.
         </p>
-        <button class="headline__btn">
+        <button class="button">
           Find Your Way
         </button>
       </div>
@@ -55,32 +59,50 @@
 
   </header>
 
-  <div class="first-section">
-    <!-- <div class="box-one">
-      <div class="box-one-wrapper">
-        <p class="box-one-title">How it works</p>
-        <p class="box-one-text">Understand & Release <br> the stress in 3 steps</p>
-        <p class="box-one-text2">Alivio offers as many journals it takes, tackling different areas such as <br> anxiety, overwhelmedness, sadness, or anger,
-        and a variety of personal <br> causes, to help you become aware of your emotions, and guide you in how <br> to manage stress.</p>
+  <div class="block-one">
+    <div class="block-one-wrapper">
+      <div class="box-one">
+        <div class="box-one-title">
+          <p>How it works</p>
+        </div>
+        <div class="box-one-text">
+          <p class="box-one-text1">Understand & Release <br> the stress in 3 steps</p>
+          <p class="box-one-text2">Alivio offers as many journals it takes, tackling different areas such as <br> anxiety, overwhelmedness, sadness, or anger,
+          and a variety of personal <br> causes, to help you become aware of your emotions, and guide you in how <br> to manage stress.</p>
+        </div>
       </div>
-    <div class="content-wrapper">
-      <div class="box-two"></div>
-      <div class="box-three"></div>
-      <div class="box-four"></div>
-    </div> -->
+      <div class="box-wrapper">
+        <div class="box-two">
+          <span class="box-number">01</span>
+          <h1 class="box-title">Personalize</h1>
+          <p class="box-text">Answer a quick survey about how you <br> express yourself, what causes you stress, <br> and what area would you like to work on. <br>
+          This way, we can fully personalize your journal!</p>
+        </div>
+        <div class="box-three">
+          <span class="box-number">02</span>
+          <h1 class="box-title">Write & Understand</h1>
+          <p class="box-text">Write, draw, reflect, understand. Alivio will <br> guide you through the prompts and will help <br> you manage your stress!</p>
+        </div>
+        <div class="box-four">
+          <span class="box-number">03</span>
+          <h1 class="box-title">Alivio!</h1>
+          <p class="box-text">Now you are aware, and have a way to manage <br> and overcome your own stress. <br> What are you waiting for? Alivio today!</p>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="block-two">
-    <div class="block-two-headline">
-      <p class="block-two-title">Let's hear about <br> Kayla's success story</p>
-      <p class="block-two-text">See how well Alivio works in a real customer’s life.</p>
+    <div class="block-two-wrapper">
+      <div class="block-two-headline">
+        <p class="block-two-title">Let's hear about <br> Kayla's success story</p>
+        <p class="block-two-text">See how well Alivio works in a real customer’s life.</p>
+        <button class="button">
+          Let’s get started
+        </button>
+      </div>
+      <div class="block-two-video"></div>
     </div>
-    <div class="block-two-video">
-
-    </div>
-    <button class="block-two-button">
-      Let’s get started
-    </button>
   </div>
 
   <div class="block-three">
@@ -93,7 +115,7 @@
         <p class="block-three-message-text">You tell us your stress, <br> We make your diary</p>
         <p class="block-three-message-text2">Everyone experiences it, and in different ways. <br> Let Alivio guide you, in a personalized journal experience, to <br> overcome
         your stress.</p>
-        <button class="block-three-button">Find Your Way</button>
+        <button class="button">Find Your Way</button>
       </div>
     </div>
     <div class="block-three-card">
@@ -101,7 +123,9 @@
         <p class="avatar-text">Customized For</p>
         <div class="card-divider"></div>
         <div class="avatar"></div>
-        <p class="avatar-name">Mikayla</p>
+        <p class="avatar-name">
+          Mikayla
+        </p>
       </div>
       <div class="card-content">
         <p class="content-title">Your custom contents</p>
@@ -114,29 +138,33 @@
   </div>
 
   <footer class="footer">
-    <div class="footer-nav">
-      <ul class="footer-nav-list">
-        <li>
-          <p>Alivio</p>
-        </li>
-        <li>
-          <a href="#">Why Alivio</a>
-        </li>
-        <li>
-          <a href="#">Solutions</a>
-        </li>
-        <li>
-          <a href="#">Community</a>
-        </li>
-        <li>
-          <a href="#">Pricing</a>
-        </li>
-      </ul>
+    <div class="footer-nav left-indent">
+      <div class="footer-nav-wrapper">
+        <ul class="footer-nav-list">
+          <li>
+            <p>Alivio</p>
+          </li>
+          <li>
+            <a href="#">Why Alivio</a>
+          </li>
+          <li>
+            <a href="#">Solutions</a>
+          </li>
+          <li>
+            <a href="#">Community</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="footer-social">
-      <div class="facebook"></div>
-      <div class="instagram"></div>
-      <div class="twitter"></div>
+      <div class="footer-social-wrapper">
+        <div class="facebook"></div>
+        <div class="instagram"></div>
+        <div class="twitter"></div>
+      </div>
     </div>
     <div class="footer-media">
       <div class="footer-media-text">
@@ -148,6 +176,7 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>
