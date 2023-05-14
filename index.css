@@ -148,6 +148,7 @@
   font-size: 50px;
   line-height: 79px;
   color: #01996D;
+  margin-right: 136px;
 }
 
 .box-one-text2 {
@@ -164,6 +165,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 90px;
 }
 
 .box-number {
@@ -211,11 +213,11 @@
 }
 
 .box-three {
-  width: 399px;
+  padding-top: 292px;
+  width: 400px;
   background-image: url('./images/first_block/Book.png');
   background-position: bottom;
   background-repeat: no-repeat;
-  padding-top: 293px;
 }
 
 .box-three span {
@@ -223,7 +225,7 @@
 }
 
 .box-three h1 {
-  margin: 133px 0 58px 86px;
+  margin: 133px 0 58px 79px;
 }
 
 .box-four {
@@ -313,6 +315,7 @@
   background-position: 46%;
   background-repeat: no-repeat;
   border-radius: 18.1125px;
+  margin-right: 86px;
 }
 
 .block-three-card {
@@ -454,6 +457,7 @@
   height: 654px;
   background-color: #245852;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-nav-wrapper {
@@ -492,7 +496,6 @@
 
 .footer-social {
   padding: 530px 0 38px 346px;
-  margin-right: 287px;
 }
 
 .footer-social-wrapper {
@@ -547,6 +550,7 @@
 
 .footer-media {
   padding-top: 464px;
+  padding-right: 92px;
   display: flex;
   flex-direction: column;
 }
